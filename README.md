@@ -1,9 +1,9 @@
-# 🎬 Movie Explorer
+# Movie Explorer
 Movie Explorer is a fast and modern web app built with React, Vite, and TypeScript. It lets users search for movies and TV shows using the OMDb API, with features like debounced search, result caching, and detailed popups. Designed with best practices for scalability, maintainability, and performance.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Search Movies and TV Shows**: Search for movies or TV shows by entering a query in the  search bar.
 - **Debounced Search**: Optimized search experience with debouncing to reduce unnecessary API calls.
@@ -17,7 +17,7 @@ Movie Explorer is a fast and modern web app built with React, Vite, and TypeScri
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React, TypeScript, SCSS
 - **State Management**: React Hooks
@@ -41,7 +41,7 @@ Movie Explorer is a fast and modern web app built with React, Vite, and TypeScri
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 src/ 
  ├── assets/ # Static files and images 
  ├── pages/  # Page components 
@@ -54,7 +54,7 @@ src/
 
 ---
 
-## 🧑‍💻 Coding Standards
+## Coding Standards
 
 - **Linting**: ESLint is used to enforce consistent coding standards.
 - **Formatting**: Prettier is used for code formatting.
@@ -63,7 +63,7 @@ src/
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (v16 or higher)
 - npm or yarn
@@ -71,7 +71,7 @@ src/
 
 ---
 
-## 🚀 Setup
+## Setup
  
  1. Clone the repository
 ```bash
@@ -88,7 +88,7 @@ VITE_OMDB_API_KEY=your_omdb_api_key
 VITE_BASE_URL=https://www.omdbapi.com/
 ```
 
-## 🏗️ Build and Run
+## Build and Run
 
 - Development Server
 Start the development server:
@@ -101,7 +101,7 @@ Build the project for production:
 ```bash
  npm run build 
 ```
-**🧪 Testing**
+** Testing**
 
 - Run unit and integration tests:
 ```bash
@@ -118,7 +118,7 @@ Build the project for production:
 4. Click/hover/tab on icon on movie card to view detailed information in a popup.
 5. Use the pagination controls to navigate through pages.
 
-## 📂 Dependencies
+## Dependencies
 
 **Key Dependencies**
 - React: Frontend library for building user interfaces.
@@ -135,7 +135,7 @@ Build the project for production:
 - React Testing Library: For testing React components.
 
 
-## 📚 Resources
+## Resources
 - [OMDb API Documentation](https://www.omdbapi.com/)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)
