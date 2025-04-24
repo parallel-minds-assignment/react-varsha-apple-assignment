@@ -73,20 +73,20 @@ src/
 
 ## 🚀 Setup
  
- # 1. Clone the repository
+ 1. Clone the repository
 ```bash
 git clone https://github.com/parallel-minds-assignment/react-varsha-apple-assignment.git
 cd react-varsha-apple-assignment 
 ```
-# 2. Install dependancies
+ 2. Install dependancies
 ```bash
   npm install
 ```
-# 3. Set up environment variables: Create a .env file in the root directory and add the following:
-
+3. Set up environment variables: Create a .env file in the root directory and add the following:
+```bash
 VITE_OMDB_API_KEY=your_omdb_api_key
 VITE_BASE_URL=https://www.omdbapi.com/
-
+```
 
 ## 🏗️ Build and Run
 
