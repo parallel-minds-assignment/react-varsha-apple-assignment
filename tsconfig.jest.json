@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",                       // If using React 17+
+    "types": ["jest", "node"],               // <- Required for Jest & Node types
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "target": "es6",
+    "module": "esnext"
+  },
+  "include": ["src", "src/**/*.test.tsx"]
+}
