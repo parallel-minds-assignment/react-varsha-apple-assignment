@@ -71,12 +71,18 @@ src/
 
 ---
 
-## 🛠️ Installation
-
-1. Install dependancies
+## 🚀 Setup
+ 
+ # 1. Clone the repository
+```bash
+git clone https://github.com/parallel-minds-assignment/react-varsha-apple-assignment.git
+cd react-varsha-apple-assignment 
+```
+# 2. Install dependancies
+```bash
   npm install
-
-2. Set up environment variables: Create a .env file in the root directory and add the following:
+```
+# 3. Set up environment variables: Create a .env file in the root directory and add the following:
 
 VITE_OMDB_API_KEY=your_omdb_api_key
 VITE_BASE_URL=https://www.omdbapi.com/
@@ -87,23 +93,24 @@ VITE_BASE_URL=https://www.omdbapi.com/
 - Development Server
 Start the development server:
 
-<pre> ```bash npm run dev ``` </pre>
-
+```bash
+ npm run dev 
+```
 - Production Build
 Build the project for production:
-
-<pre> ```bash npm run build ``` </pre>
-
+```bash
+ npm run build 
+```
 **🧪 Testing**
 
 - Run unit and integration tests:
-
-<pre> ```bash npm run test ``` </pre>
-
+```bash
+ npm run test 
+```
 - Run tests in watch mode:
-
-<pre> ``` run test:watch ``` </pre>
-
+```bash
+ npm run test:watch 
+```
 ## 📖 Usage
 1. Open the app in your browser.
 2. Enter a search query (minimum 3 characters) in the search bar.
