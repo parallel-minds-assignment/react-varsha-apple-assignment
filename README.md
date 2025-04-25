@@ -42,7 +42,17 @@ Movie Explorer is a fast and modern web app built with React, Vite, and TypeScri
 ---
 
 ## Project Structure
-<pre lang="markdown"> ```text src/ ├── assets/ # Static files and images ├── pages/ # Page components ├── shared/ # Shared components, hooks, helper, types ├── infra/ # Services, DI container ├── styles/ # SCSS styles ├── tests/ # Unit and integration tests ├── App.tsx # Main app component └── main.tsx ``` </pre> 
+```text
+src/ 
+ ├── assets/   # Static files and images 
+ ├── pages/    # Page components 
+ ├── shared/   # Shared components, hooks, helper, types
+ ├── infra/    # Services, DI container 
+ ├── styles/   # SCSS styles 
+ ├── tests/    # Unit and integration tests
+ ├── App.tsx   # Main app component 
+ └── main.tsx
+```
 
 ---
 
