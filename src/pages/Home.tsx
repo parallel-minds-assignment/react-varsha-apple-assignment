@@ -62,7 +62,7 @@ const Home = () => {
   return (
     <div className="container">
       <ToastContainer position='top-right' autoClose={3000} hideProgressBar={true} limit={1} theme="colored" />
-      <h1 className="app-title">🎬 Movie Explorer</h1>
+      <h1 className="app-title">Search Movie</h1>
       <SearchInput value={query} onChange={setQuery} />
       <div className="results">
         {results.map((movie) => (
