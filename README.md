@@ -103,7 +103,7 @@ Build the project for production:
 ```bash
  npm run build 
 ```
-** Testing**
+**Testing**
 
 - Run unit and integration tests:
 ```bash
